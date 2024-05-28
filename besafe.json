@@ -1,0 +1,9 @@
+{
+  "version": "v1.0.0",
+  "description": "A simple git pre-commit hook to prevent youfrom accidentally leaking your .env files.",
+  "homepage": "https://github.com/pybash1/besafe",
+  "license": "MIT",
+  "url": "https://github.com/pybash1/besafe/releases/download/v1.0.0/besafe.exe",
+  "bin": "besafe.exe",
+  "extract_dir": "besafe"
+}

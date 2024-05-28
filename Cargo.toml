@@ -1,7 +1,16 @@
 [package]
 name = "besafe"
-version = "0.1.0"
+description = "A simple git pre-commit hook to prevent accidental publishing of .env files!"
+authors = ["PyBash <hi@pybash.xyz>"]
+homepage = "https://github.com/pybash1/besafe"
+repositry = "https://github.com/pybash1/besafe"
+documentation = "https://github.com/pybash1/winnf"
+readme = "README.md"
+license = "MIT"
+version = "1.0.0"
 edition = "2021"
+keywords = ["cli", "binary", "git", "environment"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.5.4", features = ["cargo"] }
